@@ -37,6 +37,16 @@ body {
   margin: 4rem;
   justify-content: center;
   font-size: 4rem;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  
+}
+
+@keyframes animate {
+  from {text-shadow: none;}
+  to {text-shadow: 2px 2px 5px yellow;}
 }
 
 .dp {
