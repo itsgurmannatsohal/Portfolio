@@ -34,19 +34,27 @@ body {
 .name {
   display: flex;
   font-weight: lighter;
-  margin: 4rem;
   justify-content: center;
   font-size: 4rem;
   animation-name: animate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  
+  animation-direction: alternate-reverse; 
+  width: 100vw;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
+
 
 @keyframes animate {
   from {text-shadow: none;}
   to {text-shadow: 2px 2px 5px yellow;}
+}
+.name p{
+  margin: 0;
+  text-align: center;
+  width: 100vw;
+
 }
 
 .dp {
